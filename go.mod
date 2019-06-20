@@ -10,7 +10,6 @@ require (
 	github.com/tidwall/pretty v1.0.0
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
 	github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc
-	go.mongodb.org/mongo-driver v0.0.0-00010101000000-000000000000
 	golang.org/x/net v0.0.0-20190522155817-f3200d17e092
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/tools v0.0.0-20190531172133-b3315ee88b7d
