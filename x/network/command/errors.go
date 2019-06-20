@@ -12,8 +12,8 @@ import (
 
 	"strings"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/x/network/result"
+	"github.com/ikmak/mongo-go-driver/bson"
+	"github.com/ikmak/mongo-go-driver/x/network/result"
 )
 
 var (

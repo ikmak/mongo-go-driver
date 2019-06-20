@@ -14,5 +14,3 @@ require (
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/tools v0.0.0-20190531172133-b3315ee88b7d
 )
-
-replace go.mongodb.org/mongo-driver => ./

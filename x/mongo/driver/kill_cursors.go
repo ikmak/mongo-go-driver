@@ -9,12 +9,12 @@ package driver
 import (
 	"context"
 
-	"go.mongodb.org/mongo-driver/x/network/connection"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/ikmak/mongo-go-driver/x/network/connection"
+	"github.com/ikmak/mongo-go-driver/x/network/wiremessage"
 
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
-	"go.mongodb.org/mongo-driver/x/network/command"
-	"go.mongodb.org/mongo-driver/x/network/result"
+	"github.com/ikmak/mongo-go-driver/x/mongo/driver/topology"
+	"github.com/ikmak/mongo-go-driver/x/network/command"
+	"github.com/ikmak/mongo-go-driver/x/network/result"
 )
 
 // KillCursors handles the full cycle dispatch and execution of an aggregate command against the provided
