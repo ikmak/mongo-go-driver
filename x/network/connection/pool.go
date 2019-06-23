@@ -11,9 +11,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ikmak/mongo-go-driver/x/network/address"
-	"github.com/ikmak/mongo-go-driver/x/network/description"
-	"github.com/ikmak/mongo-go-driver/x/network/wiremessage"
+	"go.mongodb.org/mongo-driver/x/network/address"
+	"go.mongodb.org/mongo-driver/x/network/description"
+	"go.mongodb.org/mongo-driver/x/network/wiremessage"
 	"golang.org/x/sync/semaphore"
 )
 

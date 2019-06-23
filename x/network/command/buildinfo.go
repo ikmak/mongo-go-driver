@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ikmak/mongo-go-driver/bson"
-	"github.com/ikmak/mongo-go-driver/x/bsonx"
-	"github.com/ikmak/mongo-go-driver/x/network/result"
-	"github.com/ikmak/mongo-go-driver/x/network/wiremessage"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/network/result"
+	"go.mongodb.org/mongo-driver/x/network/wiremessage"
 )
 
 // BuildInfo represents the buildInfo command.

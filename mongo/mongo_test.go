@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ikmak/mongo-go-driver/bson"
-	"github.com/ikmak/mongo-go-driver/bson/bsoncodec"
-	"github.com/ikmak/mongo-go-driver/bson/bsontype"
-	"github.com/ikmak/mongo-go-driver/bson/primitive"
-	"github.com/ikmak/mongo-go-driver/x/bsonx"
-	"github.com/ikmak/mongo-go-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func noerr(t *testing.T, err error) {

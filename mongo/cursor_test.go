@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ikmak/mongo-go-driver/x/bsonx/bsoncore"
-	"github.com/ikmak/mongo-go-driver/x/mongo/driver/topology"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 type testBatchCursor struct {

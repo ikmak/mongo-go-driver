@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/ikmak/mongo-go-driver/event"
+	"go.mongodb.org/mongo-driver/event"
 )
 
 type config struct {

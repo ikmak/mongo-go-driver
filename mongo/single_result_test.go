@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ikmak/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 func TestSingleResult(t *testing.T) {

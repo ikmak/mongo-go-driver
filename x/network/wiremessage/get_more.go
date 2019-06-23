@@ -9,7 +9,7 @@ package wiremessage
 import (
 	"errors"
 	"fmt"
-	"github.com/ikmak/mongo-go-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 	"strings"
 )
 

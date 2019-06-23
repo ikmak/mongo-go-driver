@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ikmak/mongo-go-driver/bson/bsonrw"
-	"github.com/ikmak/mongo-go-driver/bson/bsontype"
-	"github.com/ikmak/mongo-go-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 func ExampleValueEncoder() {

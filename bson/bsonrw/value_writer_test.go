@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ikmak/mongo-go-driver/bson/bsontype"
-	"github.com/ikmak/mongo-go-driver/bson/primitive"
-	"github.com/ikmak/mongo-go-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func TestNewBSONValueWriter(t *testing.T) {

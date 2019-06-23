@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ikmak/mongo-go-driver/x/network/wiremessage"
+	"go.mongodb.org/mongo-driver/x/network/wiremessage"
 )
 
 func compress(t *testing.T, c Compressor, src []byte, expected []byte, dest []byte) {

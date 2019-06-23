@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"github.com/ikmak/mongo-go-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func noerr(t *testing.T, err error) {

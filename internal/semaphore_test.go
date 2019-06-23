@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/ikmak/mongo-go-driver/internal"
+	. "go.mongodb.org/mongo-driver/internal"
 	"github.com/stretchr/testify/require"
 )
 

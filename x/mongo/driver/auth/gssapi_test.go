@@ -12,8 +12,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ikmak/mongo-go-driver/x/network/address"
-	"github.com/ikmak/mongo-go-driver/x/network/description"
+	"go.mongodb.org/mongo-driver/x/network/address"
+	"go.mongodb.org/mongo-driver/x/network/description"
 )
 
 func TestGSSAPIAuthenticator(t *testing.T) {

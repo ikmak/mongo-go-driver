@@ -17,9 +17,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/ikmak/mongo-go-driver/internal/testutil/helpers"
-	"github.com/ikmak/mongo-go-driver/x/network/connstring"
-	"github.com/ikmak/mongo-go-driver/x/network/description"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/x/network/connstring"
+	"go.mongodb.org/mongo-driver/x/network/description"
 )
 
 const seedlistTestDir string = "../../../../data/initial-dns-seedlist-discovery/"

@@ -1,1 +1,1 @@
-package integration // import "github.com/ikmak/mongo-go-driver/x/mongo/driver/integration"
+package integration // import "go.mongodb.org/mongo-driver/x/mongo/driver/integration"

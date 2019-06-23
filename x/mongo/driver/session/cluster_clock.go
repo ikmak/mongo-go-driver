@@ -9,7 +9,7 @@ package session
 import (
 	"sync"
 
-	"github.com/ikmak/mongo-go-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 // ClusterClock represents a logical clock for keeping track of cluster time.

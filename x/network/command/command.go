@@ -4,7 +4,7 @@
 // not use this file except in compliance with the License. You may obtain
 // a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
-package command // import "github.com/ikmak/mongo-go-driver/x/network/command"
+package command // import "go.mongodb.org/mongo-driver/x/network/command"
 
 import (
 	"errors"
@@ -13,17 +13,17 @@ import (
 
 	"fmt"
 
-	"github.com/ikmak/mongo-go-driver/bson"
-	"github.com/ikmak/mongo-go-driver/bson/bsontype"
-	"github.com/ikmak/mongo-go-driver/bson/primitive"
-	"github.com/ikmak/mongo-go-driver/mongo/readconcern"
-	"github.com/ikmak/mongo-go-driver/mongo/writeconcern"
-	"github.com/ikmak/mongo-go-driver/x/bsonx"
-	"github.com/ikmak/mongo-go-driver/x/bsonx/bsoncore"
-	"github.com/ikmak/mongo-go-driver/x/mongo/driver/session"
-	"github.com/ikmak/mongo-go-driver/x/network/description"
-	"github.com/ikmak/mongo-go-driver/x/network/result"
-	"github.com/ikmak/mongo-go-driver/x/network/wiremessage"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/x/network/description"
+	"go.mongodb.org/mongo-driver/x/network/result"
+	"go.mongodb.org/mongo-driver/x/network/wiremessage"
 )
 
 // WriteBatch represents a single batch for a write operation.

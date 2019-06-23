@@ -4,13 +4,13 @@
 // not use this file except in compliance with the License. You may obtain
 // a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
-package readpref // import "github.com/ikmak/mongo-go-driver/mongo/readpref"
+package readpref // import "go.mongodb.org/mongo-driver/mongo/readpref"
 
 import (
 	"errors"
 	"time"
 
-	"github.com/ikmak/mongo-go-driver/tag"
+	"go.mongodb.org/mongo-driver/tag"
 )
 
 var (

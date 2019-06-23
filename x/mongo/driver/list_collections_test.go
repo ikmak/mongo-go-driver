@@ -8,7 +8,7 @@ package driver
 
 import (
 	"github.com/stretchr/testify/require"
-	"github.com/ikmak/mongo-go-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 	"testing"
 )
 
