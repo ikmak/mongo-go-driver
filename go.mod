@@ -1,4 +1,4 @@
-module github.com/ikmak/mongo-go-driver
+module go.mongodb.org/mongo-driver
 
 require (
 	github.com/go-stack/stack v1.8.0
